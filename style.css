@@ -1,3 +1,54 @@
-*{
+* {
   text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.atendimento {
+  background: rgb(54, 207, 233);
+  font-size: 20px;
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.atendimento p {
+  width: 50%;
+}
+
+.menu {
+  display: inline-flex;
+  width: 100%;
+  padding: 5px;
+}
+
+.menu h1 {
+  font-size: 25px;
+  font-family: math;
+}
+
+.col {
+  width: 20%;
+}
+
+.col1 {
+  width: 15%;
+  background: rgb(168, 245, 255);
+  display: grid;
+  align-items: center;
+  border-width: 5px;
+  border-style: ridge;
+  border-color: cornflowerblue;
+}
+
+.col2 {
+  width: 15%;
+  display: grid;
+  align-items: center;
+}
+
+.fixo {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
 }
