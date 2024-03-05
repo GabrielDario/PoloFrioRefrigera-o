@@ -1,14 +1,14 @@
-let btnAbrir = document.getElementsByClassName('button-43');
+let btnAbrir = document.getElementById('button-43');
 let btnFechar = document.getElementById('fechar-popup-btn');
-let conteudo = document.getElementById('conteudo');
-console.log(btnAbrir)
+let conteudo =  document.getElementById('popUpManuntencao');
+
 
 btnAbrir.addEventListener('click', (e) =>{
   console.log("Abriu");
 //   btnAbrir.style.display = 'none';
 //   btnFechar.style.display = 'block';
 
-//   conteudo.style.display = 'block';
+  conteudo.style.display = 'block';
 })
 // btnFechar.addEventListener('click', (e) => {
 //   console.log("Fechou");

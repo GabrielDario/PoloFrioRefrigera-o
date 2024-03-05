@@ -124,6 +124,22 @@ footer {
   font-family: sans-serif;
   margin-bottom: revert;
 }
+.popUpManuntencao {
+  box-sizing: border-box;
+  position: fixed;
+
+  left: 5%;
+  right: 5%;
+  top: calc(25vh - 80px);
+  display: none;
+  padding: 40px;
+  z-index: 1;
+  background-color: #efd7ff;
+  border: 2px solid #c59fde;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px -5px #0000003c;
+}
+   
 
 .container p {
   font-size: 20px;
