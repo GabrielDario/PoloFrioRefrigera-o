@@ -21,10 +21,17 @@ function displayImages() {
 
 }
 function crateCanvas() {
-    var largura = window.innerWidth
+    // var largura = window.innerWidth
 
-    var altura = window.innerHeight
-    console.log(largura);
-    console.log(altura);
+    // var altura = window.innerHeight
+    let footerMiddle = document.getElementById("meioFooter");
+    let footerUm = document.getElementById("footerUm");
+    let footerDois = document.getElementById("footerDois");
 
+
+    let alturaFooter = footerMiddle.clientHeight;
+    footerUm.style.marginTop = alturaFooter/4 + 'px';
+    footerDois.style.marginTop = alturaFooter/3 + 'px';
+
+    console.log(alturaFooter)
 }
