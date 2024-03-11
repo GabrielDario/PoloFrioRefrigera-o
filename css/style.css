@@ -124,6 +124,7 @@ footer {
   font-family: sans-serif;
   margin-bottom: revert;
 }
+
 .popUpManuntencao {
   box-sizing: border-box;
   position: fixed;
@@ -134,15 +135,16 @@ footer {
   display: none;
   padding: 40px;
   z-index: 1;
-  background-color:  rgb(54, 207, 233);
+  background-color: rgb(54, 207, 233);
   border: 2px solid #c59fde;
   border-radius: 8px;
   box-shadow: 0px 5px 15px -5px #0000003c;
 }
+
 .popUpManuntencao p {
   text-align: justify;
   margin: 10px 0;
-}   
+}
 
 .container p {
   font-size: 20px;
@@ -181,4 +183,25 @@ footer div {
   font-family: sans-serif;
   margin-bottom: revert;
 
+}
+
+/* Responsivo */
+@media screen and (min-width: 640px) and (max-width: 1096px) {
+  .col1 {
+    width: 10%;
+  }
+  .col1 h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+  .col {
+    width: 15%;
+}
+}
+@media screen and (min-width: 1px) and (max-width: 800px) {
+  .col1 {
+    display: none;
+  }
 }
