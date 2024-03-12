@@ -32,10 +32,24 @@ function crateCanvas() {
     let menu = document.getElementById("menu");
     let content1 = document.getElementById("content1");
 
+    let body = document.body;
+
     //Rodapé
     let alturaFooter = footerMiddle.clientHeight;
-    footerUm.style.marginTop = alturaFooter / 4 + 'px';
-    footerDois.style.marginTop = alturaFooter / 3 + 'px';
+
+    let larguraBody = body.clientWidth;
+ 
+    console.log(larguraBody)
+    
+    if(larguraBody <= 700){
+        footerDois.style.marginTop = '5px';
+        footerUm.style.marginTop = '5px';
+
+    } else{
+        footerDois.style.marginTop = alturaFooter / 3 + 'px';
+        footerUm.style.marginTop = alturaFooter / 4 + 'px';
+
+    }
 
     
     let alturaAtendimento = atendimento.clientHeight;
@@ -45,6 +59,6 @@ function crateCanvas() {
 
     let calculoHeahder = alturaAtendimento + alturaMenu;
     content1.style.marginTop = calculoHeahder  + 'px';
-    console.log(calculoHeahder)
+  
 
 }

@@ -45,14 +45,18 @@ footer {
   font-size: 25px;
   font-family: math;
 }
+
 .menu a {
   text-decoration: none;
 }
-#myLinks a{
-  BACKGROUND: blueviolet;
-}
+
 .col {
   width: 20%;
+}
+
+.articleContent {
+  width: 50%;
+  margin: 50px 0;
 }
 
 .col1 {
@@ -182,7 +186,10 @@ footer {
 .avaliacoes {
   display: inline-flex;
 }
-
+.metodoPag{
+  height: 150px;
+  margin: 50px 75px;
+}
 footer div {
   width: 33%;
   height: 200px;
@@ -253,7 +260,7 @@ footer div {
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
   .col {
-    width: 15%;
+    width: 20%;
   }
 }
 
@@ -274,5 +281,46 @@ footer div {
 
   .col2 {
     width: 36%;
+  }
+
+  .avaliacoes {
+    display: inline-block;
+  }
+  .metodoPag {
+    height: 100px;
+    margin: 50px 71px;
+}
+#footerDois{
+  margin-top: 0;
+}
+}
+
+@media (width <=1000px) {
+  .image-slideshow img {
+    width: 500px;
+  }
+
+  .articleFoto {
+    display: none;
+
+  }
+
+  .articleContent {
+    width: 100%;
+  }
+
+  .metodoPag {
+    /* margin: 50px 25px; */
+    DISPLAY: inline-block;
+}
+
+  .tipoPagamentos {
+    height: 70px;
+    margin: 40px 0px;
+  }
+
+  .box {
+    width: 200px;
+    margin: 40px 5px;
   }
 }

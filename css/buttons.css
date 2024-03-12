@@ -14,7 +14,7 @@
     margin: 0;
     outline: none;
     padding: 8px .8em;
-    position: relative;
+    position: static;
     text-align: center;
     text-decoration: none;
     user-select: none;
@@ -23,7 +23,6 @@
     vertical-align: baseline;
     white-space: nowrap;
     top: 30px;
-    right: 100px;
 }
 
 .button-7:hover,
