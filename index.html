@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="css/buttons.css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Polo Frio Refrigeração</title>
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
@@ -17,30 +18,59 @@
 
 <body>
   <header>
-    <div class="atendimento">
+    <div class="atendimento" id="atendimento">
       <p><strong>Atendemos em Palhoça,São José e Florianopolis Continental </strong></p>
       <p><strong><i class="fa fa-whatsapp" style="font-size:24px;color:green"></i> (48) 8877-7182</strong></p>
     </div>
 
 
-    <div class="menu">
+    <div class="menu" id="menu">
       <div class="col">
         <img src="img/logo_menu.jpg">
       </div>
       <div class="col1">
-        <h1>Home</h1>
+        <a href="#content1">
+         <h1>Home</h1>
+         </a>
       </div>
       <div class="col1">
+       <a href="#content2">
         <h1>Empresa</h1>
+       </a> 
       </div>
       <div class="col1">
+        <a href="#content3">
         <h1>Serviços</h1>
+        </a>
       </div>
+      <a href="#content4">
       <div class="col1">
         <h1>Pagamentos</h1>
+      </a>
       </div>
+      <a href="#content5">
       <div class="col1">
         <h1>Feedbkack</h1>
+      </a>
+      </div>
+
+      <div class="col2_nav">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active" style="color: transparent">Logo</a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a  href="#news">Home</a>
+            <a href="#content1">Empresa</a>
+            <a href="#about">Serviços</a>
+            <a href="#contact">Pagamentos</a>
+            <a href="#about">Feedback</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </div>
 
       <div class="col2">
@@ -53,6 +83,7 @@
           <img src="img/instagran_logo.png">
         </a>
       </div>
+    </div>
   </header>
 
   <div class="fixo">
@@ -65,7 +96,7 @@
     </a>
 
   </div>
-  <section class="content1">
+  <section class="content1" id="content1">
     <div class="image-slideshow">
 
       <div name="image">
@@ -86,7 +117,7 @@
     </div>
   </section>
 
-  <section class="content2">
+  <section class="content2" id="content2">
     <article style="width : 50%;margin: 50px 0;">
       <h3>Polo Frio Refrigeração: Refrigeração com Qualidade e Atendimento de Excelência em Palhoça</h3>
 
@@ -137,7 +168,7 @@
 
     </article>
   </section>
-  <section class="content3">
+  <section class="content3" id="content3">
     <h1>O que oferecemos</h1>
 
     <div>
@@ -151,9 +182,9 @@
           <button class="button-43" role="button" id="button-43">Serviços oferecidos</button>
 
           <div style="display: none;" class="popUpManuntencao" id="popUpManuntencao">
-          
-              <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-window-close-icon.png"
-                style="height: 50px;cursor: pointer;" id="fechar-popup-btn">
+
+            <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-window-close-icon.png"
+              style="height: 50px;cursor: pointer;" id="fechar-popup-btn">
             <h3>Nosso principais serviços
             </h3>
             <p> Diagnóstico e Avaliação: Isso inclui a identificação do problema com a geladeira através de testes e
@@ -207,7 +238,7 @@
     </div>
   </section>
 
-  <section class="content4">
+  <section class="content4" id="content4">
     <h3 style="margin: 50px 0;">Aceitamos seguintes formas de pagamentos: </h3>
     <h1>Cartões de crédito:</h1>
     <article>
@@ -220,7 +251,7 @@
     </article>
 
   </section>
-  <section class="content5">
+  <section class="content5" id="content5">
     <h1>Clientes Satisfeitos</h1>
     <article class="avaliacao">
       <img src="img/googleAvaliacao.png" style="float: left;">
@@ -232,7 +263,8 @@
           src="https://lh3.googleusercontent.com/a-/ALV-UjXCOm_pawsIFJFUHcYVqhMdA7F-baYhx4LHkOKjBl40zmc=w60-h60-p-rp-mo-br100"
           style="margin: 10px 0;">
         <h3>Jaque Arns</h3>
-        <p>Atendimento nota 10, preços justo e acessível. Fiz apenas um conserto e super recomendo pois os meninos são de confiança. Trabalho impecável</p>
+        <p>Atendimento nota 10, preços justo e acessível. Fiz apenas um conserto e super recomendo pois os meninos são
+          de confiança. Trabalho impecável</p>
         <br>
         <i class="fa fa-star" style="font-size:16px;color:yellow"></i>
         <i class="fa fa-star" style="font-size:16px;color:yellow"></i>
@@ -268,7 +300,9 @@
           src="https://lh3.googleusercontent.com/a/ACg8ocKjzvmMMap1La7gKFXucNv9Jcl5FeMVwGYLLZsawz4-=w60-h60-p-rp-mo-br100"
           style="margin: 10px 0;">
         <h3>Aline Felipe</h3>
-        <p>Super recomendo, atendimento top e serviço de qualidade! Estava com problema no congelador da geladeira, que não estava refrigerando, prontamente me atenderam e trocaram o ventilador. Problema resolvido rápido e com eficiência. Parabéns pessoal!</p>
+        <p>Super recomendo, atendimento top e serviço de qualidade! Estava com problema no congelador da geladeira, que
+          não estava refrigerando, prontamente me atenderam e trocaram o ventilador. Problema resolvido rápido e com
+          eficiência. Parabéns pessoal!</p>
         <br>
         <i class="fa fa-star" style="font-size:16px;color:yellow"></i>
         <i class="fa fa-star" style="font-size:16px;color:yellow"></i>
@@ -291,7 +325,7 @@
   </a>
   <br><br><br><br>
   <footer style="display: flex;" id="meioFooter">
-    <div >
+    <div>
       <img src="img/logo_menu.jpg" id="footerUm">
     </div>
 
@@ -306,8 +340,8 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767.0504862913642!2d-48.6794819047641!3d-27.652347545661524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735cbd7da6acf%3A0x904dbaf32dd3a581!2sPolo%20Frio%20Refrigera%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1709498723991!5m2!1spt-BR!2sbr"
         width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" ></iframe>
-    </div >
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
   </footer>
 </body>

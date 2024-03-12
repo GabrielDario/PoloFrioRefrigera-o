@@ -28,10 +28,23 @@ function crateCanvas() {
     let footerUm = document.getElementById("footerUm");
     let footerDois = document.getElementById("footerDois");
 
+    let atendimento = document.getElementById("atendimento");
+    let menu = document.getElementById("menu");
+    let content1 = document.getElementById("content1");
 
+    //Rodapé
     let alturaFooter = footerMiddle.clientHeight;
-    footerUm.style.marginTop = alturaFooter/4 + 'px';
-    footerDois.style.marginTop = alturaFooter/3 + 'px';
+    footerUm.style.marginTop = alturaFooter / 4 + 'px';
+    footerDois.style.marginTop = alturaFooter / 3 + 'px';
 
-    console.log(alturaFooter)
+    
+    let alturaAtendimento = atendimento.clientHeight;
+    let alturaMenu = menu.clientHeight;
+    menu.style.top = alturaAtendimento -4  + 'px';
+
+
+    let calculoHeahder = alturaAtendimento + alturaMenu;
+    content1.style.marginTop = calculoHeahder  + 'px';
+    console.log(calculoHeahder)
+
 }

@@ -24,6 +24,8 @@ footer {
   display: inline-flex;
   width: 100%;
   padding: 10px;
+  position: fixed;
+  left: 0;
 }
 
 .atendimento p {
@@ -34,13 +36,21 @@ footer {
   display: inline-flex;
   width: 100%;
   padding: 5px;
+  position: fixed;
+  left: 0;
+  background: rgb(54, 207, 233);
 }
 
 .menu h1 {
   font-size: 25px;
   font-family: math;
 }
-
+.menu a {
+  text-decoration: none;
+}
+#myLinks a{
+  BACKGROUND: blueviolet;
+}
 .col {
   width: 20%;
 }
@@ -57,7 +67,8 @@ footer {
 
 .col2 {
   width: 15%;
-  display: grid;
+  display: block;
+
   align-items: center;
 }
 
@@ -185,11 +196,56 @@ footer div {
 
 }
 
+.col2_nav {
+  display: none;
+  width: 55%;
+}
+
+/* Button para celular */
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 43%;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
 /* Responsivo */
 @media screen and (min-width: 640px) and (max-width: 1096px) {
   .col1 {
     width: 10%;
   }
+
   .col1 h1 {
     font-size: 17px;
   }
@@ -198,10 +254,25 @@ footer div {
 @media screen and (min-width: 600px) and (max-width: 949px) {
   .col {
     width: 15%;
+  }
 }
-}
+
 @media screen and (min-width: 1px) and (max-width: 800px) {
   .col1 {
     display: none;
+  }
+
+  .col2_nav {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 599px) {
+  .col {
+    width: 50%;
+  }
+
+  .col2 {
+    width: 36%;
   }
 }
