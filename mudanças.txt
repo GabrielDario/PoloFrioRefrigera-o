@@ -1,0 +1,6 @@
+Quando clicar em algo no menu,sair o menu
+subir mais certinho quando clicar
+Ajeitar botão ver mais google para trans do botao ver mais.
+Ajeitar a section o que oferecermos para tras da div fixed menu
+ajeitar espaçamento na o que oferecemos
+Cor mais escura para paulo
