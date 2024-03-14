@@ -48,10 +48,10 @@ function myFunctionMove(y) {
   listaAlturas.push(content5.clientHeight);
 
   let somaAltura = 0;
-  for(i = 0; i <= y; i++) {
+  for(i = 0; i < y; i++) {
     somaAltura += listaAlturas[i];
   }
-  window.scrollTo(0, 150);
+  window.scrollTo(0, somaAltura- (contentMenu.clientHeight - 50));
 
 
 }
