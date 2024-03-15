@@ -15,8 +15,10 @@
 .content {
   position: fixed;
   width: 100%;
-  background: royalblue;
+  background: #00B4CC;
+  ;
 }
+
 .content2,
 .content4,
 footer {
@@ -34,10 +36,15 @@ footer {
 
 .atendimento p {
   width: 50%;
+  color: azure;
+  font-family: monospace;
+  font-size: 25px;
 }
+
 .contentMenu {
   position: fixed;
 }
+
 .menu {
   display: inline-flex;
   width: 100%;
@@ -52,9 +59,7 @@ footer {
 }
 
 .menu a {
-  text-decoration: none;
   cursor: pointer;
-  color: blue;
 }
 
 .col {
@@ -87,7 +92,7 @@ footer {
   position: fixed;
   bottom: 15px;
   right: 25px;
-  
+
 }
 
 .content2 {
@@ -98,6 +103,7 @@ footer {
 .content2 p {
   padding: 10px;
 }
+
 /* teste */
 
 .content2 h3 {
@@ -135,7 +141,7 @@ footer {
   font-size: 25px;
   color: white;
   text-shadow: 0px 0px 5px black;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .content3 img {
@@ -171,6 +177,7 @@ footer {
 
 .container p {
   font-size: 20px;
+  margin: 0 30px;
 }
 
 
@@ -194,10 +201,12 @@ footer {
 .avaliacoes {
   display: inline-flex;
 }
-.metodoPag{
+
+.metodoPag {
   height: 150px;
   margin: 50px 75px;
 }
+
 footer div {
   width: 33%;
   height: 200px;
@@ -280,6 +289,13 @@ footer div {
   .col2_nav {
     display: initial;
   }
+  .atendimento {
+    display: inline-block;
+}
+.atendimento p {
+    width: 95%;
+    margin: 20px 0;
+}
 }
 
 @media screen and (min-width: 100px) and (max-width: 599px) {
@@ -294,18 +310,45 @@ footer div {
   .avaliacoes {
     display: inline-block;
   }
+
   .metodoPag {
     height: 100px;
     margin: 50px 71px;
-}
-#footerDois{
-  margin-top: 0;
+  }
+
+  #footerDois {
+    margin-top: 0;
+  }
+
+  .image-slideshow img {
+    width: 95vw;
+    /* margin-top: 65px; */
+  }
+  .topnav a.icon {
+    right: 17%;
 }
 }
 
-@media (width <=1000px) {
+@media(width < 300px) {
+  .col img {
+    height: 70px;
+  }
+
+  .col2 {
+    width: 53%;
+  }
+
+  .col2 img {
+    height: 50px;
+  }
+  .atendimento p {
+    font-size: 20px;
+}
+}
+
+@media (width <=1000px) and (height <=800px) {
   .image-slideshow img {
-    width: 500px;
+    width: 100vw;
   }
 
   .articleFoto {
@@ -320,7 +363,7 @@ footer div {
   .metodoPag {
     /* margin: 50px 25px; */
     DISPLAY: inline-block;
-}
+  }
 
   .tipoPagamentos {
     height: 70px;
@@ -328,7 +371,13 @@ footer div {
   }
 
   .box {
-    width: 200px;
+    width: 90vw;
     margin: 40px 5px;
+    font-size: 5vw;
+  }
+
+  .container {
+    margin: 0;
+    width: 90vw;
   }
 }
