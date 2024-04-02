@@ -1,7 +1,23 @@
-Quando clicar em algo no menu,sair o menu - FEITO
-subir mais certinho quando clicar - FEITO
-Ajeitar a section o que oferecermos para tras da div fixed menu - Feito
-Ajeitar botão ver mais google para trans do botao ver mais. - Feito
-ajeitar espaçamento na o que oferecemos - fazendo
+Diminuir cabeçalho
+junto com a letra
+trocar fonta
 
-Cor mais escura para paulo - A FAZER
+* tirar fixed do menu
+
+* Tirar os navegação,deixar só parte de cima
+* slide - setinha mudando dinamicamente
+* adicionar marcas que trabalha - consul,brastemp...
+* botar imagem do paulo trabando e da equipe
+* Diminuir tamanho 'falar com técnico
+* botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]
+E botar resto 'misao' em uma aba diferente
+* (13,86,166) pegar base ws refrigeração
+* Botar limpeza no nossos serviços
+* Arrumar cor da letra do nossos serviços
+* Fazer outros de nossos serviços -
+   - 1 Catalogo
+   - 2 Manuntenção,limpeza
+* Por ultimo as históruias
+* pegar raduis e voltas
+* O que oferecemos - Adicionar ENTREGA
+* No conteudo 2 - Botar missao no ultimo junto com a história da empresa

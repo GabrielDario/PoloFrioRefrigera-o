@@ -13,9 +13,8 @@
 }
 
 .content {
-  position: fixed;
   width: 100%;
-  background: #00B4CC;
+  background: rgb(13,16,166);
   ;
 }
 
