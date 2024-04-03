@@ -38,6 +38,7 @@ function myFunctionMove(y) {
 
 
   let larguraBody = body.clientWidth;
+  console.log(larguraBody)
   let listaAlturas = [];
 
   listaAlturas.push(contentMenu.clientHeight);

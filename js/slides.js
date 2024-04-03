@@ -1,64 +1,50 @@
 
-let index = 0;
-displayImages();
-crateCanvas();
-function displayImages() {
-    let i;
-    const images = document.getElementsByName("image");
+// let index = 0;
+// displayImages();
+// crateCanvas();
+// function displayImages() {
+//     let i;
+//     const images = document.getElementsByName("image");
 
-    for (i = 0; i < images.length; i++) {
-        images[i].style.display = "none";
+//     for (i = 0; i < images.length; i++) {
+//         images[i].style.display = "none";
 
-    }
-    index++;
+//     }
+//     index++;
 
-    if (index > images.length) {
-        index = 1;
-    }
+//     if (index > images.length) {
+//         index = 1;
+//     }
 
-    images[index - 1].style.display = "block";
-    setTimeout(displayImages, 4000);
+//     images[index - 1].style.display = "block";
+//     setTimeout(displayImages, 4000);
 
-}
-function crateCanvas() {
-    // var largura = window.innerWidth
+// }
+// function crateCanvas() {
+//     // var largura = window.innerWidth
 
-    // var altura = window.innerHeight
-    let footerMiddle = document.getElementById("meioFooter");
-    let footerUm = document.getElementById("footerUm");
-    let footerDois = document.getElementById("footerDois");
+//     // var altura = window.innerHeight
+//     let footerMiddle = document.getElementById("meioFooter");
+//     let footerUm = document.getElementById("footerUm");
+//     let footerDois = document.getElementById("footerDois");
 
-    let atendimento = document.getElementById("atendimento");
-    let menu = document.getElementById("menu");
-    let content1 = document.getElementById("content1");
+//     let body = document.body;
 
-    let body = document.body;
+//     //Rodapé
+//     let alturaFooter = footerMiddle.clientHeight;
 
-    //Rodapé
-    let alturaFooter = footerMiddle.clientHeight;
-
-    let larguraBody = body.clientWidth;
+//     let larguraBody = body.clientWidth;
  
-    console.log(larguraBody)
+//     console.log(larguraBody)
     
-    if(larguraBody <= 700){
-        footerDois.style.marginTop = '5px';
-        footerUm.style.marginTop = '5px';
+//     if(larguraBody <= 700){
+//         footerDois.style.marginTop = '5px';
+//         footerUm.style.marginTop = '5px';
 
-    } else{
-        footerDois.style.marginTop = alturaFooter / 3 + 'px';
-        footerUm.style.marginTop = alturaFooter / 4 + 'px';
+//     } else{
+//         footerDois.style.marginTop = alturaFooter / 3 + 'px';
+//         footerUm.style.marginTop = alturaFooter / 4 + 'px';
 
-    }
+//     }
 
-    
-    let alturaAtendimento = atendimento.clientHeight;
-    let alturaMenu = menu.clientHeight;
-    menu.style.top = alturaAtendimento -4  + 'px';
-
-
-    let calculoHeahder = alturaAtendimento + alturaMenu;
-    content1.style.marginTop = calculoHeahder  + 'px';
-  
-
-}
+// }

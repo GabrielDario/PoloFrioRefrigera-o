@@ -3,15 +3,17 @@ junto com a letra
 trocar fonta
 
 * tirar fixed do menu
-
 * Tirar os navegação,deixar só parte de cima
+* Diminuir tamanho 'falar com técnico
+
+* (13,86,166) pegar base ws refrigeração
+
 * slide - setinha mudando dinamicamente
 * adicionar marcas que trabalha - consul,brastemp...
 * botar imagem do paulo trabando e da equipe
-* Diminuir tamanho 'falar com técnico
 * botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]
-E botar resto 'misao' em uma aba diferente
-* (13,86,166) pegar base ws refrigeração
+E botar resto 'misao' em uma aba diferente   
+
 * Botar limpeza no nossos serviços
 * Arrumar cor da letra do nossos serviços
 * Fazer outros de nossos serviços -

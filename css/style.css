@@ -4,18 +4,10 @@
   overflow-x: hidden;
 }
 
-.content1,
-.content2,
-.content3,
-.content4,
-.content5 {
-  margin: 20px 0;
-}
 
 .content {
   width: 100%;
-  background: rgb(13,16,166);
-  ;
+  background: rgb(13, 86, 166);  ;
 }
 
 .content2,
@@ -93,7 +85,13 @@ footer {
   right: 25px;
 
 }
-
+.fixo img {
+  height: 50px;
+}
+.fixo h1 {
+  margin: 20px;
+  font-size: 20px;
+}
 .content2 {
   display: inline-flex;
 }
@@ -142,7 +140,9 @@ footer {
   text-shadow: 0px 0px 5px black;
   margin-top: 25px;
 }
-
+.content1 img {
+  height: 55vw;
+}
 .content3 img {
   border-radius: 0% 22%;
 }
