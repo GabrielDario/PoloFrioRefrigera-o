@@ -17,12 +17,10 @@ footer {
 }
 
 .atendimento {
-
   font-size: 20px;
   display: inline-flex;
   width: 100%;
   padding: 10px;
-  left: 0;
 }
 
 .atendimento p {
@@ -34,6 +32,29 @@ footer {
 
 .contentMenu {
   position: fixed;
+}
+.radio-group {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  background-color: black;
 }
 
 .menu {
@@ -140,8 +161,14 @@ footer {
   text-shadow: 0px 0px 5px black;
   margin-top: 25px;
 }
+.radios {
+  position: absolute;
+  left: 48%;
+  top: 100px;
+  /* margin: 50px; */
+}
 .content1 img {
-  height: 55vw;
+  width: 100%;
 }
 .content3 img {
   border-radius: 0% 22%;
@@ -288,12 +315,13 @@ footer div {
   .col2_nav {
     display: initial;
   }
-  .atendimento {
+  /* .atendimento {
     display: inline-block;
-}
+} */
 .atendimento p {
     width: 95%;
     margin: 20px 0;
+    font-size: 15px;
 }
 }
 
@@ -301,7 +329,9 @@ footer div {
   .col {
     width: 50%;
   }
-
+  .atendimento p {
+    font-size: 15px;
+}
   .col2 {
     width: 36%;
   }
@@ -346,6 +376,9 @@ footer div {
 }
 
 @media (width <=1000px) and (height <=800px) {
+  .atendimento p {
+    font-size: 15px;
+}
   .image-slideshow img {
     width: 100vw;
   }

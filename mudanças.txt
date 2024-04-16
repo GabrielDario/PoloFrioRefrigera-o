@@ -5,7 +5,6 @@ trocar fonta
 * tirar fixed do menu
 * Tirar os navegação,deixar só parte de cima
 * Diminuir tamanho 'falar com técnico
-
 * (13,86,166) pegar base ws refrigeração
 
 * slide - setinha mudando dinamicamente
