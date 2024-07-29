@@ -1,6 +1,6 @@
 Diminuir cabeçalho
 junto com a letra
-trocar fonta
+trocar fonte
 
 * tirar fixed do menu
 * Tirar os navegação,deixar só parte de cima
