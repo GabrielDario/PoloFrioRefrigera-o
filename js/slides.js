@@ -1,30 +1,13 @@
 
+// set index and transition delay
 let index = 0;
-let i;
-displayImages();
+let transitionDelay = 5000;
+let slides = document.querySelectorAll(".fundos");
+let radios = document.querySelectorAll(".radio");
+
+
 crateCanvas();
-function displayImages() {
-    console.log('Trocando imagens...')
-    const image = document.getElementsByName("image");
-    const images = document.querySelectorAll("img");
-    console.log(images[1])
-    console.log(images[2])
-    console.log(images[3])
-    for (i = 0; i < image.length; i++) {
-        image[i].style.display = "none";
 
-    }
-    index++;
-
-    if (index > image.length) {
-        index = 1;
-    }
-
-    image[index - 1].style.display = "block";
-    image[1].style.src = "fundo_slideteste2.png";
-    setTimeout(image, 4000);
-
-}
 function crateCanvas() {
     // var largura = window.innerWidth
 
@@ -39,17 +22,51 @@ function crateCanvas() {
     let alturaFooter = footerMiddle.clientHeight;
 
     let larguraBody = body.clientWidth;
- 
+
     console.log(larguraBody)
-    
-    if(larguraBody <= 700){
+
+    if (larguraBody <= 700) {
         footerDois.style.marginTop = '5px';
         footerUm.style.marginTop = '5px';
 
-    } else{
+    } else {
         footerDois.style.marginTop = alturaFooter / 3 + 'px';
         footerUm.style.marginTop = alturaFooter / 4 + 'px';
-
     }
-
 }
+
+//SLIDESS 
+for (let slide of slides) {
+    slide.style.transition = `all ${transitionDelay / 7000}s linear`;
+}
+
+showSlide(index);
+
+function showSlide(slideNumber) {
+    slides.forEach((slide, i) => {
+        slide.style.display = i == slideNumber ? "block" : "none";
+        // console.log(radios[index].checked);
+        // console.log(radios[index]);
+        console.log(index);
+       
+        if(index == 0) {
+            radios[0].checked = true;
+            radios[1].checked = false;
+            radios[2].checked = false;
+        }else if(index == 1) {
+            radios[0].checked = false;
+            radios[1].checked = true;
+            radios[2].checked = false;
+        }else {
+            radios[0].checked = false;
+            radios[1].checked = false;
+            radios[2].checked = true;
+        }
+        
+    });
+    index++;
+    if (index >= slides.length) {
+        index = 0;
+    }
+}
+setInterval(() => showSlide(index), transitionDelay);
