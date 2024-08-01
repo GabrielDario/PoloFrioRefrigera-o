@@ -6,14 +6,11 @@ trocar fonte
 * Tirar os navegação,deixar só parte de cima
 * Diminuir tamanho 'falar com técnico
 * (13,86,166) pegar base ws refrigeração
-
 * slide - setinha mudando dinamicamente
 * adicionar marcas que trabalha - consul,brastemp...
-* botar imagem do paulo trabando e da equipe
-* botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]
 E botar resto 'misao' em uma aba diferente   
-
 * Botar limpeza no nossos serviços
+
 * Arrumar cor da letra do nossos serviços
 * Fazer outros de nossos serviços -
    - 1 Catalogo
@@ -22,3 +19,7 @@ E botar resto 'misao' em uma aba diferente
 * pegar raduis e voltas
 * O que oferecemos - Adicionar ENTREGA
 * No conteudo 2 - Botar missao no ultimo junto com a história da empresa
+
+PAULO 
+* botar imagem do paulo trabando e da equipe
+* botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]

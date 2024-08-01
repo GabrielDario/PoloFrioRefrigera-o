@@ -113,6 +113,10 @@ footer {
   margin: 20px;
   font-size: 20px;
 }
+.marcas {
+  display: inline-flex;
+  height: 34px;
+}
 .content2 {
   display: inline-flex;
 }
