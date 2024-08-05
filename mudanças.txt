@@ -1,25 +1,24 @@
-Diminuir cabeçalho
-junto com a letra
-trocar fonte
+Tópicos para alterar : 
 
-* tirar fixed do menu
-* Tirar os navegação,deixar só parte de cima
-* Diminuir tamanho 'falar com técnico
-* (13,86,166) pegar base ws refrigeração
-* slide - setinha mudando dinamicamente
-* adicionar marcas que trabalha - consul,brastemp...
-E botar resto 'misao' em uma aba diferente   
-* Botar limpeza no nossos serviços
-
-* Arrumar cor da letra do nossos serviços
-* Fazer outros de nossos serviços -
+1 - Diminuir cabeçalho junto com a letra
+2 - trocar fonte
+3 - tirar fixed do menu
+4 - Tirar os navegação,deixar só parte de cima
+5 - Diminuir tamanho - falar com técnico
+6 - (13,86,166) pegar base ws refrigeração de cores
+7 - slide - setinha mudando dinamicamente
+8 - adicionar marcas que trabalha - consul,brastemp...  
+9 - Botar limpeza no nossos serviços
+10 - Arrumar cor da letra do nossos serviços
+11 - Fazer outros de nossos serviços -
    - 1 Catalogo
    - 2 Manuntenção,limpeza
-* Por ultimo as históruias
-* pegar raduis e voltas
-* O que oferecemos - Adicionar ENTREGA
-* No conteudo 2 - Botar missao no ultimo junto com a história da empresa
+12 - pegar raduis e botar bordas curvas
+13 - Por ultimo as botar as histórias
+14 - O que oferecemos - Adicionar ENTREGA
+15 - No conteudo 2 - Botar missao no ultimo junto com a história da empresa
 
 PAULO 
-* botar imagem do paulo trabando e da equipe
-* botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]
+7.1 - * botar imagem do paulo trabando e da equipe
+8.1 - * Quais marca ele trabalha
+15.1 - * botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]

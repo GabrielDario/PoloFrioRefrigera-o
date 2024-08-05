@@ -4,12 +4,15 @@
   overflow-x: hidden;
 }
 
-
 .content {
   width: 100%;
-  background: rgb(13, 86, 166);  ;
+  background: rgb(13, 86, 166); 
+  border-radius: 0% 0% 47% 0%;
 }
 
+.content1 , .content2,.content3,.content4,.content5,.content6 {
+  margin-top: 15px;
+}
 .content2,
 .content4,
 footer {
@@ -27,7 +30,7 @@ footer {
   width: 50%;
   color: azure;
   font-family: monospace;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .contentMenu {
@@ -117,7 +120,7 @@ footer {
   display: inline-flex;
   height: 34px;
 }
-.content2 {
+.content2 , .content6{
   display: inline-flex;
 }
 
@@ -133,7 +136,8 @@ footer {
 }
 
 .content2 p {
-  font-family: monospace;
+  font-family: math;
+  font-size: 20px;
 }
 
 .val {
@@ -161,8 +165,6 @@ footer {
 
 .container figcaption {
   font-size: 25px;
-  color: white;
-  text-shadow: 0px 0px 5px black;
   margin-top: 25px;
 }
 .radios {
@@ -171,8 +173,17 @@ footer {
   top: 100px;
   /* margin: 50px; */
 }
+.content1{
+    border-radius: 1% 1% 22% 22%;
+}
 .content1 img {
   width: 100%;
+}
+.content2 {
+  border-radius: 19% 5% 31% 5%;
+}
+.content4{
+  border-radius: 37% 1%;
 }
 .content3 img {
   border-radius: 0% 22%;
