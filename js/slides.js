@@ -4,10 +4,26 @@ let index = 0;
 let transitionDelay = 5000;
 let slides = document.querySelectorAll(".fundos");
 let radios = document.querySelectorAll(".radio");
-
+let radio1 = document.getElementById('radio1')
+let radio2 = document.getElementById('radio2')
+let radio3 = document.getElementById('radio3')
 
 crateCanvas();
 
+radio1.addEventListener("click", (e) => {
+    index = 0;
+    showSlide(index);
+});
+
+radio2.addEventListener("click", (e) => {
+    index = 1;
+    showSlide(index);
+});
+
+radio3.addEventListener("click", (e) => {
+    index = 2;
+    showSlide(index);
+});
 function crateCanvas() {
     // var largura = window.innerWidth
 
@@ -22,8 +38,6 @@ function crateCanvas() {
     let alturaFooter = footerMiddle.clientHeight;
 
     let larguraBody = body.clientWidth;
-
-    console.log(larguraBody)
 
     if (larguraBody <= 700) {
         footerDois.style.marginTop = '5px';
@@ -45,9 +59,6 @@ showSlide(index);
 function showSlide(slideNumber) {
     slides.forEach((slide, i) => {
         slide.style.display = i == slideNumber ? "block" : "none";
-        // console.log(radios[index].checked);
-        // console.log(radios[index]);
-        console.log(index);
        
         if(index == 0) {
             radios[0].checked = true;
@@ -69,4 +80,6 @@ function showSlide(slideNumber) {
         index = 0;
     }
 }
+
+
 setInterval(() => showSlide(index), transitionDelay);

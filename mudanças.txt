@@ -18,6 +18,14 @@ Tópicos para alterar :
 14 - O que oferecemos - Adicionar ENTREGA
 15 - No conteudo 2 - Botar missao no ultimo junto com a história da empresa
 
+---------------------------------------------------
+Extras
+16 - Mudar ao clicar
+17 - Ajeitar maps do rodapé
+
+18 - Ver em outras dimensões - Diminuir FONTE AVALIAÇÕES
+19 - Excluir arquivos desnecessários
+---------------------------------------------------
 PAULO 
 7.1 - * botar imagem do paulo trabando e da equipe
 8.1 - * Quais marca ele trabalha
