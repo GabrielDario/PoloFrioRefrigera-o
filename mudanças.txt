@@ -1,32 +1,16 @@
 Tópicos para alterar : 
 
-1 - Diminuir cabeçalho junto com a letra
-2 - trocar fonte
-3 - tirar fixed do menu
-4 - Tirar os navegação,deixar só parte de cima
-5 - Diminuir tamanho - falar com técnico
-6 - (13,86,166) pegar base ws refrigeração de cores
-7 - slide - setinha mudando dinamicamente
-8 - adicionar marcas que trabalha - consul,brastemp...  
-9 - Botar limpeza no nossos serviços
-10 - Arrumar cor da letra do nossos serviços
-11 - Fazer outros de nossos serviços -
-   - 1 Catalogo
-   - 2 Manuntenção,limpeza
-12 - pegar raduis e botar bordas curvas
-13 - Por ultimo as botar as histórias
-14 - O que oferecemos - Adicionar ENTREGA
-15 - No conteudo 2 - Botar missao no ultimo junto com a história da empresa
-
+Feitos
+4 - Tirar máquina de lavar no primeiro slide
+6 - Trocar cor fundo para azul escuro e branco
+5 - Trocar 'Traga para nois' para outra frase que Paulo e Kerol
+7 - Deixar apenas a primeira foto do slide
+1 - Botar ultima imagem do slide lá em baixo
+2 - Tirar historia do lado esquedo e colocar foto na ultima seçao
+3 - Colocar em tempo real as avaliações
+9 - Alinhar o que oferecemos 
+10 - Colocar cor branco
+11 - Trocar fundo do nossos principais serviços
+A FAZER
+8 - Mensagem pronta no whats appx
 ---------------------------------------------------
-Extras
-16 - Mudar ao clicar
-17 - Ajeitar maps do rodapé
-
-18 - Ver em outras dimensões - Diminuir FONTE AVALIAÇÕES
-19 - Excluir arquivos desnecessários
----------------------------------------------------
-PAULO 
-7.1 - * botar imagem do paulo trabando e da equipe
-8.1 - * Quais marca ele trabalha
-15.1 - * botar historia na EMPRESA (Diminuir apenas primeiro paragrafo ) [Paulo vai me da um texto]

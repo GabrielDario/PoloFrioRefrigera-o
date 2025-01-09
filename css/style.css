@@ -15,10 +15,10 @@ a {
 .content1 , .content2,.content3,.content4,.content5,.content6 {
   margin-top: 15px;
 }
-.content2,
-.content4,
+.content3,
+.content5,
 footer {
-  background-color: gray;
+  background-color: rgb(13, 86, 166, 0.7);
 }
 
 .atendimento {
@@ -87,6 +87,9 @@ footer {
   width: 50%;
   margin: 50px 0;
 }
+.articleContent, .articleFoto {
+  padding: 15px;
+}
 
 .col1 {
   width: 15%;
@@ -121,6 +124,9 @@ footer {
 .marcas {
   display: inline-flex;
   height: 34px;
+}
+.content6 {
+  width: 100vw;
 }
 .content2 , .content6{
   display: inline-flex;
@@ -181,12 +187,16 @@ footer {
 .content1 img {
   width: 100%;
 }
-.content2 {
-  border-radius: 19% 5% 31% 5%;
+.content3,.content5 {
+  border-radius: 20% 5% 5% 5%;
 }
 .content4{
   border-radius: 37% 1%;
 }
+.content4 img {
+  height: 70px;
+}
+
 .content3 img {
   border-radius: 0% 22%;
 }
