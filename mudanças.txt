@@ -7,10 +7,24 @@ Feitos
 7 - Deixar apenas a primeira foto do slide
 1 - Botar ultima imagem do slide lá em baixo
 2 - Tirar historia do lado esquedo e colocar foto na ultima seçao
-3 - Colocar em tempo real as avaliações
-9 - Alinhar o que oferecemos 
-10 - Colocar cor branco
+9 - Alinhar o que servicos oferecidos  - REAL ------------------
+3 - Colocar em tempo real as avaliações - REAL ------------------
+12 - Jogar rodape no meio
 11 - Trocar fundo do nossos principais serviços
+10 - Colocar cor branco no o que oferecemos
+13 - Tirar os corte do celular
+15 - Distanciar box do 'o que oferecemos'
+16 - botar borda do botao 'nosso catalogo'
+14 - Deixar tudo em uma fila no tipos de pagamento
+17 - Ajeitar ultimo foto e historia
+19 - No serviços oferecidos,botar x no final
+20 - tirar buscamos em negrito e aumentar       -  padding
+21 - Diminuir tamanho da imagem do cartão de credito
+22 - Atualizar foto avaliações
+
 A FAZER
-8 - Mensagem pronta no whats appx
+18 - Aumentar tamanha do slide principal - Vai esticar
+ 
+23 - Botar texto no final
+8 - Mensagem pronta no whats app
 ---------------------------------------------------

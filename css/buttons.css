@@ -43,7 +43,7 @@
     --c: #fff;
     /* text color */
     background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat,
-        #004dff;
+    rgb(13, 86, 166);
     /* background color */
     color: #0000;
     border: none;
@@ -70,7 +70,7 @@
 .button-92 {
     font-weight: bold;
     font-size: 2rem;
-    margin: 0;
+    margin: 50px 0;
     cursor: pointer;
     padding: .1em .3em;
 }
@@ -82,10 +82,11 @@
     display: flex;
     font-size: 16px;
     justify-content: center;
-    padding: 1rem 1.75rem;
+    padding: 0.5rem 1.55rem;
     text-decoration: none;
     width: 100%;
-    border: 0;
+    border: 3px solid blue;
+    background-color: brown;
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;

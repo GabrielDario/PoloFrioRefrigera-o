@@ -3,18 +3,26 @@
   margin: 0;
   overflow-x: hidden;
 }
+
 a {
   text-decoration: none;
 }
+
 .content {
   width: 100%;
-  background: rgb(13, 86, 166); 
+  background: rgb(13, 86, 166);
   border-radius: 0% 0% 47% 0%;
 }
 
-.content1 , .content2,.content3,.content4,.content5,.content6 {
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
   margin-top: 15px;
 }
+
 .content3,
 .content5,
 footer {
@@ -38,11 +46,13 @@ footer {
 .contentMenu {
   position: fixed;
 }
+
 .radio-group {
   position: absolute;
   bottom: 0;
   left: 50%;
 }
+
 .radio-group input[type="radio"] {
   display: none;
 }
@@ -58,7 +68,7 @@ footer {
   cursor: pointer;
 }
 
-.radio-group input[type="radio"]:checked + label {
+.radio-group input[type="radio"]:checked+label {
   background-color: black;
 }
 
@@ -87,10 +97,15 @@ footer {
   width: 50%;
   margin: 50px 0;
 }
-.articleContent, .articleFoto {
+
+.articleContent,
+.articleFoto {
   padding: 15px;
 }
-
+.articleFoto {
+  width : 50%;
+  margin: 50px 0;
+}
 .col1 {
   width: 15%;
   background: rgb(168, 245, 255);
@@ -114,21 +129,27 @@ footer {
   right: 25px;
 
 }
+
 .fixo img {
   height: 50px;
 }
+
 .fixo h1 {
   margin: 20px;
   font-size: 20px;
 }
+
 .marcas {
   display: inline-flex;
   height: 34px;
 }
+
 .content6 {
   width: 100vw;
 }
-.content2 , .content6{
+
+.content2,
+.content6 {
   display: inline-flex;
 }
 
@@ -175,30 +196,44 @@ footer {
   font-size: 25px;
   margin-top: 25px;
 }
+
 .radios {
   position: absolute;
   left: 48%;
   top: 100px;
   /* margin: 50px; */
 }
-.content1{
-    border-radius: 1% 1% 22% 22%;
+
+.content1 {
+  border-radius: 1% 1% 22% 22%;
 }
+
 .content1 img {
   width: 100%;
 }
-.content3,.content5 {
+
+.content3,
+.content5 {
   border-radius: 20% 5% 5% 5%;
 }
-.content4{
+
+.content4 {
   border-radius: 37% 1%;
 }
+
 .content4 img {
-  height: 70px;
+  height: 100px;
 }
 
 .content3 img {
   border-radius: 0% 22%;
+}
+
+.container h2,
+.container p,
+.content3 h1,
+.content3 h3 {
+  color: white;
 }
 
 .content3 h1 {
@@ -217,7 +252,7 @@ footer {
   display: none;
   padding: 40px;
   z-index: 1;
-  background-color: rgb(54, 207, 233);
+  background: rgb(13, 86, 166);
   border: 2px solid #c59fde;
   border-radius: 8px;
   box-shadow: 0px 5px 15px -5px #0000003c;
@@ -314,7 +349,8 @@ footer div {
   background-color: #ddd;
   color: black;
 }
-#footerDois p{
+
+#footerDois p {
   padding: 30px 0;
 }
 
@@ -344,23 +380,60 @@ footer div {
   .col2_nav {
     display: initial;
   }
+
   /* .atendimento {
     display: inline-block;
 } */
-.atendimento p {
+  .atendimento p {
     width: 95%;
     margin: 20px 0;
     font-size: 15px;
-}
+  }
+  .articleFoto {
+    width : 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 100px) and (max-width: 599px) {
+  .articleFoto {
+    width : 100%;
+    padding: 0;
+  }
+  .tipoPagamentos img {
+    height: 65px;
+  }
+
+  .popUpManuntencao p {
+    font-size: 11px;
+  }
+
+  .atendimento {
+    padding: 0px;
+    font-size: 10px;
+  }
+
+  .content,
+  .content1,
+  .content3,
+  .content5,
+  .content2,
+  .content4 {
+    border-radius: 0;
+  }
+
   .col {
     width: 50%;
   }
+
+  .container {
+    margin: 15px 20px;
+  }
+
   .atendimento p {
     font-size: 15px;
-}
+  }
+
   .col2 {
     width: 36%;
   }
@@ -370,8 +443,8 @@ footer div {
   }
 
   .metodoPag {
-    height: 100px;
-    margin: 50px 71px;
+    display: inline-block;
+    margin: 0;
   }
 
   #footerDois {
@@ -382,12 +455,17 @@ footer div {
     width: 95vw;
     /* margin-top: 65px; */
   }
+
   .topnav a.icon {
     right: 17%;
-}
+  }
 }
 
 @media(width < 300px) {
+  .tipoPagamentos img {
+    height: 65px;
+  }
+
   .col img {
     height: 70px;
   }
@@ -399,46 +477,87 @@ footer div {
   .col2 img {
     height: 50px;
   }
+
   .atendimento p {
     font-size: 20px;
-}
+  }
+  .articleFoto {
+    width : 100%;
+    padding: 0;
+  }
 }
 
 @media (width <=1000px) and (height <=800px) {
+
+  .content,
+  .content1,
+  .content3,
+  .content5 {
+    border-radius: 0;
+  }
+
   .atendimento p {
     font-size: 15px;
-}
+  }
+
   .image-slideshow img {
     width: 100vw;
   }
-
+  .content2 .articleContent {
+    width: 100%;
+}
+.content2 .articleFoto {
+  display: none;
+}
   .articleFoto {
-    display: none;
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
 
+  .content6 {
+    display: block;
   }
 
   .articleContent {
     width: 100%;
   }
+  .content6 .articleContent {
+    padding: 0;
+}
+  .articleContent img {
+    height: 145px;
+  }
 
   .metodoPag {
-    /* margin: 50px 25px; */
-    DISPLAY: inline-block;
+    margin: 0;
+    display: inline-block;
   }
 
   .tipoPagamentos {
-    height: 70px;
     margin: 40px 0px;
+  }
+
+  img.tipoPagamentos {
+    height: 65px;
   }
 
   .box {
     width: 90vw;
     margin: 40px 5px;
-    font-size: 5vw;
+    font-size: 2vw;
   }
 
   .container {
-    margin: 0;
+    margin: 15px;
     width: 90vw;
+  }
+
+  .container figcaption {
+    margin-top: 15px;
+  }
+
+  .popUpManuntencao p {
+    font-size: 11px;
   }
 }
