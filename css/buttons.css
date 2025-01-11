@@ -1,6 +1,6 @@
 .button {
     background-color: #0095ff;
-    border: 1px solid transparent;
+    border: 3px solid blue;
     border-radius: 3px;
     box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
     box-sizing: border-box;
@@ -11,7 +11,7 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 1.15385;
-    margin: 0;
+    margin: 3% 0;
     outline: none;
     padding: 8px .8em;
     position: static;
@@ -24,7 +24,9 @@
     white-space: nowrap;
     top: 30px;
 }
-
+.button a {
+    color: white;
+}
 .button-7:hover,
 .button-7:focus {
     background-color: #07c;

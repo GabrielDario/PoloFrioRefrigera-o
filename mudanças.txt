@@ -20,11 +20,12 @@ Feitos
 19 - No serviços oferecidos,botar x no final
 20 - tirar buscamos em negrito e aumentar       -  padding
 21 - Diminuir tamanho da imagem do cartão de credito
-22 - Atualizar foto avaliações
+24 - Botar whats app para funcionar
+8 - Mensagem pronta no whats app
+23 - Botar texto no final
+18 - Aumentar tamanha do slide principal - Vai esticar
 
 A FAZER
-18 - Aumentar tamanha do slide principal - Vai esticar
- 
-23 - Botar texto no final
-8 - Mensagem pronta no whats app
+22 - Atualizar foto avaliações
+
 ---------------------------------------------------

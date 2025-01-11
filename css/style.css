@@ -23,6 +23,10 @@ a {
   margin-top: 15px;
 }
 
+.fundos {
+  background-image: url('img/fotoPrincipal.png');
+}
+
 .content3,
 .content5,
 footer {
@@ -102,10 +106,12 @@ footer {
 .articleFoto {
   padding: 15px;
 }
+
 .articleFoto {
-  width : 50%;
+  width: 50%;
   margin: 50px 0;
 }
+
 .col1 {
   width: 15%;
   background: rgb(168, 245, 255);
@@ -260,7 +266,10 @@ footer {
 
 .popUpManuntencao p {
   text-align: justify;
-  margin: 10px 0;
+  white-space: normal;
+  word-spacing: normal;
+  text-align: left;
+  margin: 5px 0;
 }
 
 .container p {
@@ -313,47 +322,15 @@ footer div {
   width: 55%;
 }
 
-/* Button para celular */
-
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 43%;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 #footerDois p {
   padding: 30px 0;
 }
 
+.footerUm,
+.footerDois {
+  margin-top: 50px;
+}
 
 /* Responsivo */
 @media screen and (min-width: 640px) and (max-width: 1096px) {
@@ -389,23 +366,26 @@ footer div {
     margin: 20px 0;
     font-size: 15px;
   }
+
   .articleFoto {
-    width : 100%;
+    width: 100%;
     padding: 0;
   }
 }
 
 @media screen and (min-width: 100px) and (max-width: 599px) {
   .articleFoto {
-    width : 100%;
+    width: 100%;
     padding: 0;
   }
+
   .tipoPagamentos img {
     height: 65px;
   }
 
   .popUpManuntencao p {
     font-size: 11px;
+    margin: 5px 0;
   }
 
   .atendimento {
@@ -447,17 +427,14 @@ footer div {
     margin: 0;
   }
 
-  #footerDois {
-    margin-top: 0;
+
+  .footer {
+    height: 250px;
   }
 
-  .image-slideshow img {
-    width: 95vw;
-    /* margin-top: 65px; */
-  }
-
-  .topnav a.icon {
-    right: 17%;
+  .footerUm,
+  .footerDois {
+    margin-top: 15px;
   }
 }
 
@@ -481,8 +458,9 @@ footer div {
   .atendimento p {
     font-size: 20px;
   }
+
   .articleFoto {
-    width : 100%;
+    width: 100%;
     padding: 0;
   }
 }
@@ -500,15 +478,14 @@ footer div {
     font-size: 15px;
   }
 
-  .image-slideshow img {
-    width: 100vw;
-  }
   .content2 .articleContent {
     width: 100%;
-}
-.content2 .articleFoto {
-  display: none;
-}
+  }
+
+  .content2 .articleFoto {
+    display: none;
+  }
+
   .articleFoto {
     display: block;
     width: 100%;
@@ -522,9 +499,11 @@ footer div {
   .articleContent {
     width: 100%;
   }
+
   .content6 .articleContent {
     padding: 0;
-}
+  }
+
   .articleContent img {
     height: 145px;
   }
@@ -558,6 +537,7 @@ footer div {
   }
 
   .popUpManuntencao p {
-    font-size: 11px;
+    font-size: 13px;
+    margin: 5px 0;
   }
 }
