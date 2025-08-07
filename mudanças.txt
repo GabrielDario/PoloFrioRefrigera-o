@@ -1,31 +1,10 @@
 Tópicos para alterar : 
 
 Feitos
-4 - Tirar máquina de lavar no primeiro slide
-6 - Trocar cor fundo para azul escuro e branco
-5 - Trocar 'Traga para nois' para outra frase que Paulo e Kerol
-7 - Deixar apenas a primeira foto do slide
-1 - Botar ultima imagem do slide lá em baixo
-2 - Tirar historia do lado esquedo e colocar foto na ultima seçao
-9 - Alinhar o que servicos oferecidos  - REAL ------------------
-3 - Colocar em tempo real as avaliações - REAL ------------------
-12 - Jogar rodape no meio
-11 - Trocar fundo do nossos principais serviços
-10 - Colocar cor branco no o que oferecemos
-13 - Tirar os corte do celular
-15 - Distanciar box do 'o que oferecemos'
-16 - botar borda do botao 'nosso catalogo'
-14 - Deixar tudo em uma fila no tipos de pagamento
-17 - Ajeitar ultimo foto e historia
-19 - No serviços oferecidos,botar x no final
-20 - tirar buscamos em negrito e aumentar       -  padding
-21 - Diminuir tamanho da imagem do cartão de credito
-24 - Botar whats app para funcionar
-8 - Mensagem pronta no whats app
-23 - Botar texto no final
-18 - Aumentar tamanha do slide principal - Vai esticar
+
 
 A FAZER
-22 - Atualizar foto avaliações
-
+1 - Foto pix 
+2 - Cortado compramos e buscamos
+3 - Tags
 ---------------------------------------------------
