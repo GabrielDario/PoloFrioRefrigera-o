@@ -272,7 +272,7 @@ footer {
   word-spacing: normal;
   text-align: left;
   margin: 5px 0;  
-}
+} 
 
 .container p {
   font-size: 20px;
@@ -310,10 +310,12 @@ footer {
 
 footer div {
   width: 33%;
-  height: 200px;
-  overflow-y: hidden;
+  /* height: 200px; */
+  /* overflow-y: hidden; */
 }
-
+.copyright {
+ font-size: 10px;
+}
 .content5 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -327,13 +329,13 @@ footer div {
 }
 
 
-#footerDois p {
+/* #footerDois p {
   padding: 30px 0;
-}
+} */
 
 .footerUm,
 .footerDois {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 /* Responsivo */
@@ -442,7 +444,7 @@ footer div {
   }
 }
 
-@media(width < 300px) {
+@media(width < 400px) {
   .tipoPagamentos img {
     height: 65px;
   }
@@ -466,6 +468,9 @@ footer div {
   .articleFoto {
     width: 100%;
     padding: 0;
+  }
+  .content6 {
+    display: inline-block;
   }
 }
 
